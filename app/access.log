@@ -939,3 +939,7 @@
 127.0.0.1 - - [12/Oct/2015:17:51:43 +0300] "POST /app_dev.php/todo HTTP/1.1" 200 308 "-" "curl/7.35.0"
 127.0.0.1 - - [12/Oct/2015:17:51:54 +0300] "POST /app_dev.php/todo HTTP/1.1" 200 308 "-" "curl/7.35.0"
 127.0.0.1 - - [12/Oct/2015:17:54:32 +0300] "POST /app_dev.php/todo HTTP/1.1" 200 308 "-" "curl/7.35.0"
+127.0.0.1 - - [12/Oct/2015:17:59:11 +0300] "GET /app_dev.php/todo/7dd HTTP/1.1" 404 119497 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0"
+127.0.0.1 - - [12/Oct/2015:17:59:12 +0300] "GET /app_dev.php/_wdt/9332b0 HTTP/1.1" 200 8067 "http://local.denisa.com/app_dev.php/todo/7dd" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0"
+127.0.0.1 - - [12/Oct/2015:17:59:41 +0300] "GET /app_dev.php/todo/7uhi HTTP/1.1" 404 119504 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0"
+127.0.0.1 - - [12/Oct/2015:17:59:41 +0300] "GET /app_dev.php/_wdt/e1d16d HTTP/1.1" 200 8067 "http://local.denisa.com/app_dev.php/todo/7uhi" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0"
