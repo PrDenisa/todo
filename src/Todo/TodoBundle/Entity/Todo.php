@@ -33,7 +33,7 @@ class Todo
      *
      * @ORM\Column(name="active", type="boolean", nullable=true)
      */
-    private $active;
+    private $active = 1;
 
 
     /**
