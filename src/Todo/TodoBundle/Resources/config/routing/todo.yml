@@ -1,0 +1,38 @@
+todo:
+    path:     /todo
+    defaults: { _controller: "TodoBundle:Todo:index" }
+    methods:  GET
+
+todo_getTodo:
+    path:     /todo/{id}
+    defaults: { _controller: "TodoBundle:Todo:getTodo" }
+    methods:  GET
+    requirements:
+        id:  \d+
+
+# todo_new:
+#     path:     /new
+#     defaults: { _controller: "TodoBundle:Todo:new" }
+
+todo_create:
+    path:     /todo
+    defaults: { _controller: "TodoBundle:Todo:create" }
+    methods:  POST
+
+# todo_edit:
+#     path:     /{id}/show
+#     defaults: { _controller: "TodoBundle:Todo:show" }
+
+todo_update:
+    path:     /todo/{id}
+    defaults: { _controller: "TodoBundle:Todo:update" }
+    methods:  PUT
+    requirements:
+        id:  \d+
+
+todo_delete:
+    path:     /todo/{id}
+    defaults: { _controller: "TodoBundle:Todo:delete" }
+    methods:  DELETE
+    requirements:
+        id:  \d+
